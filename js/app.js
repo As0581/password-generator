@@ -36,11 +36,13 @@ generateBtn.innerText = 'Generate New Password'
 
 mainElement.appendChild(generateBtn)
 
+//quantity of symbols
 
+const quantity = document.querySelector('#quantity')
 
 
 generateBtn.addEventListener('click' , (e)=>{
-    let password = generatePassword(10)
+    let password = generatePassword(quantity.value)
     passwordElement.value = password
 })
 
@@ -121,3 +123,6 @@ symbolsChb.addEventListener('change' , () => {
         symbols = ''
     }
 })
+
+
+

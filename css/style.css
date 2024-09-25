@@ -97,9 +97,24 @@ h3{
     align-items: center;
     margin-bottom: 20px;
 }
+.quantity{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
 
-input[type='checkbox']{
-    
+label{
+    font-size: 20px;
+}
+
+label[for='quantity']{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
 }
 
 @media (max-width:300px) {
