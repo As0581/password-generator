@@ -13,19 +13,24 @@ body{
     max-width: 1200px;
     margin:0 auto;
     font-family: 'Open-sans' , sans-serif;
+    padding-top: 50px;
 }
 
 h1{
     font-size: 60px;
     margin-bottom: 10px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 5px;
 }
 
 .main{
     display: flex;
     justify-content: start;
     align-items:center;
-    height:100vh;
     flex-direction: column;
+    margin-bottom: 70px;
 }
 
 .password{
@@ -92,4 +97,10 @@ h1{
 
 input[type='checkbox']{
     
+}
+
+@media (max-width:300px) {
+    h1{
+       font-size: 40px; 
+    }
 }
