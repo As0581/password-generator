@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #f1f5f8;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    font-family: 'Open-sans' , sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    height:100vh;
+    flex-direction: column;
+}
+
+.password{
+    padding:5px;
+    caret-color:transparent;
+    margin-bottom:8px;
+    text-align: center; 
+    border:3px solid grey;
+    border-radius: 8px; 
+    font-family: 'Open-sans' , sans-serif;
+    transition: all 1s;
+}
+.password:hover{
+    padding:8px;
+    transition: all 1s;
+}
+
+.copy-btn{
+    padding:10px;
+    background-color: rgb(127, 172, 118);
+    border:none;
+    border-radius: 6px;
+    color:#f1f5f8;
+    margin-bottom: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.copy-btn:hover{
+    transition: all 0.5s;
+    padding:10px 20px;
+    background-color: rgb(103, 155, 93);
+}
+.copy-btn:active{
+    transition: all 0.3s;
+    padding:8px 18px;
+    background-color: rgb(81, 122, 73);
+}
+
+.generate-btn{
+    padding:10px;
+    background-color: rgb(172, 124, 62);
+    border:none;
+    border-radius: 6px;
+    color:#f1f5f8;
+    transition: all 0.5s;
+}
+.generate-btn:hover{
+    transition: all 0.5s;
+    padding:10px 20px;
+    background-color: rgb(145, 99, 39);
+}
+.generate-btn:active{
+    transition: all 0.3s;
+    padding:8px 18px;
+    background-color: rgb(121, 83, 33);
+}
+
+.checkboxes-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type='checkbox']{
+    
+}
